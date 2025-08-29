@@ -29,7 +29,7 @@ writeShellScriptBin
 
   if [[ $# != 1 ]]
   then
-    usage 1 "Usage: $0 <script name directory location>"
+    usage 1 "Usage: ''${0##*/} <script name directory location>"
   fi
 
   SCRIPT_NAME="$1"
